@@ -1,0 +1,132 @@
+:root {
+    --darkpurple-color: #23144f;
+    --purple-color: #7F5DC8;
+    --lightpurple-color: #9747FF;
+    --purplelight-color: #8080D7;
+    --gray-color: #C0C0C0;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background: #23144F;
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 1282.8px;
+    margin: 0 auto;
+}
+
+header{
+    background: #23144F;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 1282.8px;
+    top: 36px;
+    z-index: 100;
+}
+
+
+nav .logo{
+    font-family: "Radio Canada";
+    font-weight: 400;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li a{
+
+font-family: "Radio Canada", sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: var(--purple-color);
+}
+
+.products{
+    display:flex;
+    padding-top: 25%;
+    gap: 50px;  
+}
+
+.products img{
+background: linear-gradient(180deg, #9747FF 0%, #8080D7 100%);
+border-radius: 35px;
+width: 280px;
+height: 280px;
+
+
+}
+
+
+.products .two img{
+    padding-top: 10%;
+    padding-right: 5%;
+}
+
+.Price{
+
+color: var(--white-color);
+width: 300px;
+
+}
+
+.productname{
+    font-family: "Radio Canada", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    
+}
+
+.productdesc{
+font-family: "Roboto", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 41px;
+text-align: center;
+background: #7F5DC8;
+border-radius: 35px;
+color: #000000;
+height: 500px;
+width: 300px;
+}
+
+footer .contact{
+    font-family: "Outfit";
+    color: #8080D7;
+    padding-top: 10%;
+    padding-left: 80%;
+    font-size: x-large;
+}
+
